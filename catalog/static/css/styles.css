@@ -4,6 +4,13 @@
     list-style: none;
 }
 
+html {
+    background: -webkit-radial-gradient(circle,white,#aad0f3);
+    background: -o-radial-gradient(circle,white,#aad0f3);
+    background: -moz-radial-gradient(circle,white,#aad0f3);
+    background: radial-gradient(circle,white,#aad0f3);
+}
+
 body {
     min-width: 1300px;
     margin: 0 auto;
@@ -22,17 +29,19 @@ h1 {
     text-shadow: 3px 3px 1px rgb(87, 136, 243);
 }
 
-h2 {font-size: 28px;}
+h2 {
+    font-size: 40px;
+    color: #0d0080;
+}
 
-p, ul, li {
+p, ul, li, .page-links {
     font-size: 25px;
     line-height: 1.5;
 }
 
-span {
-    font-size: 18px;
-    text-align: right;
-    display:block;
+.pagination {
+    text-align: center;
+    display: block;
 }
 
 h2, p, ul, li, span, form {
