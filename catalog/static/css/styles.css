@@ -3,17 +3,9 @@
     padding: 0;
     list-style: none;
 }
-/* 
-html {
-    background: -webkit-radial-gradient(circle,white,#9ccaf5);
-    background: -o-radial-gradient(circle,white,#9ccaf5);
-    background: -moz-radial-gradient(circle,white,#9ccaf5);
-    background: radial-gradient(circle,white,#9ccaf5);
-}
 
 body {
-    width: 90%;
-    min-width: 700px;
+    min-width: 1300px;
     margin: 0 auto;
     background-color: transparent;
     padding: 20px 20px 20px 20px;
@@ -43,7 +35,7 @@ span {
     display:block;
 }
 
-h2, p, ul, li, span {
+h2, p, ul, li, span, form {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     letter-spacing: 1.5px;
 }
@@ -51,6 +43,13 @@ h2, p, ul, li, span {
 img {
     display: block;
     margin: 0 auto;
+    width: 70%
 }
 
-a:hover{color:red;} */
+a:hover {color:red;}
+
+hr {
+    border-width:5px;
+    border-color: rgb(87, 136, 243);
+
+}
