@@ -49,10 +49,10 @@ h2, p, ul, li, span, form {
     letter-spacing: 1.5px;
 }
 
-img {
+img, iframe {
+    text-align: center;
     display: block;
     margin: 0 auto;
-    width: 70%
 }
 
 a:hover {color:red;}
